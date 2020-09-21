@@ -6,10 +6,22 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload ="getQuest()">
+<body>
 
     <div class="container">
-        <h2>practice</h2>
+        <form>
+            <div class="row">
+                <div>
+                    <input type="number" name="num1" id="num1" max="5" placeholder="num1">
+                </div>
+                <div>
+                    <input type="number" name="num2" id="num2" max="5" placeholder="num2">
+                </div>
+                <div>
+                    <input type="submit" value="Enter" id="enter"> 
+                </div>
+            </div>
+        </form>
         <p id="quest"></p>
         <button onclick="answer()" class="btn success">answer</button>
         <p id="answer"></p>
